@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ваш сайт</title>
+    <style>
+        body {
+            background-image: url('фоновая_картинка.jpg'); /* Укажите путь к вашей фоновой картинке */
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: lightblue;
+            height: 2cm;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 1cm; /* Добавляем отступы в 1 сантиметр с обоих сторон */
+        }
+
+        .widget-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .widget {
+            width: 2cm;
+            height: 2cm;
+            margin: 0 4cm; /* Расстояние между виджетами 4 сантиметра */
+            background-color: white; /* Цвет виджета можете настроить по вашему усмотрению */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .square {
+            width: 2cm;
+            height: 2cm;
+            background-image: url('квадратная_картинка.jpg'); /* Укажите путь к квадратной картинке */
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="widget-container">
+            <div class="widget"> <!-- Виджет 1 -->
+                <!-- Виджет 1 не содержит картинки -->
+            </div>
+            <div class="widget"> <!-- Виджет 2 -->
+                <!-- Виджет 2 не содержит картинки -->
+            </div>
+            <div class="widget"> <!-- Виджет 3 -->
+                <!-- Виджет 3 не содержит картинки -->
+            </div>
+        </div>
+        <div class="square"></div>
+    </div>
+
+    <!-- Здесь размещается остальное содержимое вашего сайта -->
+
+</body>
+</html>
